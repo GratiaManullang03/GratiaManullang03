@@ -1,0 +1,43 @@
+name: Waka Readme
+
+on:
+  workflow_dispatch: # bisa dijalankan manual
+  schedule:
+    - cron: '0 0 * * *' # update tiap hari jam 12 AM UTC
+
+jobs:
+  update-readme:
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # Jika bukan Profile Repo, tambahkan ini:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+          ### Meta (opsional)
+          REPOSITORY: GratiaManullang03/GratiaManullang03
+          API_BASE_URL: https://wakatime.com/api
+
+          ### Konten (untuk tampilkan yang keren)
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          CODE_LANG: python, go, javascript
+          TIME_RANGE: last_30_days
+          LANG_COUNT: 8
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          STOP_AT_OTHER: true
+          IGNORED_LANGUAGES: JSON TOML Binary
+
+          ### Commit (opsional)
+          COMMIT_MESSAGE: '🔄 Update WakaTime stats'
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
+          COMMITTER_NAME: GitHubActionBot
+          COMMITTER_EMAIL: action-bot@github.com
+          AUTHOR_NAME: Gratia
+          AUTHOR_EMAIL: gratiamanullang03@email.com
