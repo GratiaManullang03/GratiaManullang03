@@ -4,6 +4,8 @@ Hey there, digital explorer! You've just landed in my coding sanctuary where ide
 
 Dive into my repositories to witness my coding journey - each commit tells a story of learning, experimentation, and growth. I believe great code isn't just functional; it's elegant, efficient, and thoughtfully crafted.
 
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=GratiaManullang03" alt="GratiaManullang03" /> </p>
+
 ---
 
 ## 🌐 Socials:
