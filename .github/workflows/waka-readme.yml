@@ -1,10 +1,10 @@
 name: Waka Readme
 
 on:
-  # for manual workflow trigger
+  # Manual trigger
   workflow_dispatch:
+  # Schedule: runs every day at 12 AM UTC
   schedule:
-    # runs at 12 AM UTC
     - cron: '0 0 * * *'
 
 jobs:
@@ -12,19 +12,29 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      # this action name
       - uses: athul/waka-readme@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} # optional jika ini adalah profile readme
-          # Parameter opsional berikut dapat disesuaikan menurut preferensi
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # Required
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Optional, needed if writing to profile repo
+
+          # Optional Customizations
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: ->
+          BLOCKS: "░▒▓█"
           SHOW_TIME: true
           SHOW_TOTAL: true
           LANG_COUNT: 10
           SHOW_MASKED_TIME: false
-          SHOW_PROJECTS: false
-          SHOW_LINES_OF_CODE: true
-          SHOW_LOC_CHART: false
+          TIME_RANGE: last_7_days
+          STOP_AT_OTHER: false
+          IGNORED_LANGUAGES: ""
+          CODE_LANG: true
+
+          # Commit options
+          COMMIT_MESSAGE: "Update wakatime stats"
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
+          COMMITTER_NAME: GitHub Actions
+          COMMITTER_EMAIL: actions@github.com
+          AUTHOR_NAME: GitHub Actions
+          AUTHOR_EMAIL: actions@github.com
