@@ -1,0 +1,50 @@
+name: Waka Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Setiap hari jam 12 AM UTC
+
+jobs:
+  update-readme:
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          # --- Auth ---
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # WAJIB
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Untuk commit ke README
+
+          # --- Konfigurasi Utama ---
+          SHOW_TITLE: true
+          SECTION_NAME: waka
+          BLOCKS: "░▒▓█"
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 10
+          STOP_AT_OTHER: false
+          IGNORED_LANGUAGES: ""
+          CODE_LANG: true
+
+          # --- Tambahan Menarik ---
+          SHOW_COMMIT: true
+          SHOW_DAYS_OF_WEEK: true
+          SHOW_EDITORS: true
+          SHOW_PROJECTS: true
+          SHOW_OS: true
+          SHOW_LINES_OF_CODE: true
+          SHOW_LANGUAGE_PER_REPO: true
+          SHOW_LOC_CHART: true
+          LOCALE: "en"
+
+          # --- Konfigurasi Commit ---
+          COMMIT_MESSAGE: "🔄 Update WakaTime Stats"
+          TARGET_BRANCH: main
+          TARGET_PATH: README.md
+          COMMITTER_NAME: GitHub Actions
+          COMMITTER_EMAIL: actions@github.com
+          AUTHOR_NAME: GitHub Actions
+          AUTHOR_EMAIL: actions@github.com
