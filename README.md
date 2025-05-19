@@ -31,6 +31,24 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 
 ## 📊 Weekly Development Breakdown
 <!--START_SECTION:waka-->
+
+```txt
+From: 11 May 2025 - To: 18 May 2025
+
+Total Time: 2 hrs 36 mins
+
+JavaScript   1 hr 15 mins    >>>>>>>>>>>>-------------   47.84 %
+Markdown     1 hr 2 mins     >>>>>>>>>>---------------   39.35 %
+YAML         8 mins          >------------------------   05.13 %
+HTML         4 mins          >------------------------   03.01 %
+CSS          3 mins          >------------------------   02.42 %
+Other        1 min           -------------------------   01.21 %
+Go           0 secs          -------------------------   00.46 %
+JSON         0 secs          -------------------------   00.40 %
+SQL          0 secs          -------------------------   00.07 %
+Ballerina    0 secs          -------------------------   00.05 %
+```
+
 <!--END_SECTION:waka-->
 
 ## 💰 You can help me by Donating
