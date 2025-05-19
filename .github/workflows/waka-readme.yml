@@ -25,3 +25,6 @@ jobs:
           SHOW_TOTAL: true
           LANG_COUNT: 10
           SHOW_MASKED_TIME: false
+          SHOW_PROJECTS: false
+          SHOW_LINES_OF_CODE: true
+          SHOW_LOC_CHART: false
