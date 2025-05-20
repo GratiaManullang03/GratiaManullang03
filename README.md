@@ -23,8 +23,8 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 [![](https://visitcount.itsvg.in/api?id=GratiaManullang03&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ## ⏱️ Coding Time Stats
-[![Gratia's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Gratia&theme=github_dark&hide_border=false)](https://wakatime.com/@Gratia)
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=GratiaManullang03" alt="GratiaManullang03" />
   <img src="https://wakatime.com/badge/user/dc89527f-d97d-43f8-87e2-4eea14802ac6.svg" alt="Waketime stats" />
 </p>
 <!--START_SECTION:waka-->
