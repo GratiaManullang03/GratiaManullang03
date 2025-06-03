@@ -52,7 +52,7 @@ Other        56 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 # 🚀 Beyond the Horizon
 
-The best code is yet to be written! I'm currently pushing the boundaries of my knowledge in [specific technology/framework], while remaining curious about emerging technologies reshaping our digital landscape.
+The best code is yet to be written! I'm currently pushing the boundaries of my knowledge in Golang, while remaining curious about emerging technologies reshaping our digital landscape.
 
 Got an innovative project idea? Looking for a collaborator who's passionate about clean code and creative solutions? Let's connect and turn possibilities into reality!
 
