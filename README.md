@@ -20,13 +20,13 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 <!--START_SECTION:waka-->
 
 ```python, go, javascript
-From: 15 July 2025 - To: 14 August 2025
+From: 16 July 2025 - To: 15 August 2025
 
-Total Time: 64 hrs 32 mins
+Total Time: 59 hrs 51 mins
 
-Python                     35 hrs 26 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   48.58 %
-Go                         12 hrs 42 mins  ⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.42 %
-Other                      8 hrs 24 mins   ⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.53 %
+Python                     35 hrs 40 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   52.91 %
+Go                         8 hrs 20 mins   ⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.37 %
+Other                      7 hrs 33 mins   ⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.21 %
 ```
 
 <!--END_SECTION:waka-->
