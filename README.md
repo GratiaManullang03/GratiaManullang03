@@ -9,7 +9,7 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 
 ## 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=GratiaManullang03&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=GratiaManullang03&theme=github_dark&hide_border=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=GratiaManullang03&theme=github_dark)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=GratiaManullang03&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## ⏱️ Coding Time Stats
