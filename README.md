@@ -20,7 +20,7 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 <!--START_SECTION:waka-->
 
 ```python, go, javascript
-From: 23 December 2025 - To: 22 January 2026
+From: 24 December 2025 - To: 23 January 2026
 
 Total Time: 16 hrs 43 mins
 
