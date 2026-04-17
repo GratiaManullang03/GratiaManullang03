@@ -20,12 +20,13 @@ Dive into my repositories to witness my coding journey - each commit tells a sto
 <!--START_SECTION:waka-->
 
 ```python, go, javascript
-From: 15 March 2026 - To: 14 April 2026
+From: 16 March 2026 - To: 15 April 2026
 
-Total Time: 46 hrs 51 mins
+Total Time: 47 hrs 10 mins
 
-Markdown                   25 hrs 44 mins        ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   46.96 %
-Other                      7 hrs 58 mins         ⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   14.53 %
+Markdown                   25 hrs 40 mins        ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   45.61 %
+Python                     9 hrs 41 mins         ⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.23 %
+Other                      9 hrs 6 mins          ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   16.18 %
 ```
 
 <!--END_SECTION:waka-->
