@@ -16,6 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Install gh-skyline
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -28,21 +32,10 @@ jobs:
           mkdir -p skyline
           gh skyline --user GratiaManullang03 --full --output skyline/contributions-skyline.stl
 
-      - name: Install renderer
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y openscad xvfb
-
       - name: Render skyline to PNG
         run: |
-          echo 'color([0.545,0.361,0.965]) import("skyline/contributions-skyline.stl");' > /tmp/render.scad
-          xvfb-run -a openscad \
-            -o skyline/contributions-skyline.png \
-            --autocenter --viewall \
-            --imgsize=1920,1080 \
-            --camera=0,0,0,55,0,25,0 \
-            --colorscheme="Tomorrow Night" \
-            /tmp/render.scad
+          pip install numpy-stl matplotlib
+          python scripts/render_skyline.py
 
       - name: Commit skyline
         run: |
