@@ -397,24 +397,6 @@ An HRIS attendance module that handles employee attendance, scheduling, and the 
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> Contribution Skyline
-
-<div align="center">
-
-My entire contribution history rendered as a 3D city, built with [gh-skyline](https://github.com/github/gh-skyline). Taller buildings are busier days. The image and the 3D model both refresh on a schedule.
-
-<img width="92%" src="https://raw.githubusercontent.com/GratiaManullang03/GratiaManullang03/main/skyline/contributions-skyline.png" alt="3D contribution skyline" />
-
-<br/>
-
-<a href="https://github.com/GratiaManullang03/GratiaManullang03/raw/main/skyline/contributions-skyline.stl">
-  <img src="https://img.shields.io/badge/Download_3D_Model_(.stl)-6d28d9?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
----
-
 ## <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="28"> Contribution Snake
 
 <div align="center">
